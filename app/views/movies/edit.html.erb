@@ -4,6 +4,9 @@
   <p style="color: red;"><%= message %></p>
 <% end %>
 
+
+
+
 <form action="<%= movie_path(@the_movie) %>" method="post">
   <input name="authenticity_token" value="<%= form_authenticity_token %>" type="hidden">
   
